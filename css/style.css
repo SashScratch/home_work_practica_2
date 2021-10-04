@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* .............. */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	background-color: white;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* .................. */
+
+h1 {
+	background-color: green;
+	margin: 30px 0px 40px 0px;
+	padding: 10px;
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
+	border: 3px solid #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+	color: darkred;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 25px;
+	margin-bottom: 35px;
+	text-decoration: underline;
+}
+
+.task1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 62px;
+	letter-spacing: 0.8px;
+	color: #323232;
+}
+
+.block1 {
+	max-width: 375px;
+	margin: 20px auto 30px auto;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 1px 1px 5px 2px darkgrey;
+	border: 3px;
+}
+
+.text1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+}
+
+.block1 a {
+	font-weight: 700;
+	background-color: #f78434;
+	border-radius: 29px;
+	display: inline-block;
+	width: 172px;
+	height: 58px;
+	text-align: center;
+	padding: 18px 0px;
+}
+
+a {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.block2 {
+	max-width: 540px;
+	height: 365px;
+	margin: 0px auto 30px auto;
+	padding: 40px 0px 0px 0px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 1px 1px 10px 2px darkgrey;
+	border: 1px;
+}
+
+img {
+	vertical-align: top;
+}
+
+.task2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 63px;
+	text-align: center;
+	letter-spacing: 0.8px;
+	color: #323232;
+}
+
+.text2 {
+	font-weight: 400;
+	line-height: 169%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 1.15px;
+	color: #323232;
+}
+
+.text2 span {
+	display: block;
+	padding: 0px 0px 43px 0px;
+}
+
+.block2 a {
+	font-weight: 700;
+	color: #f78434;
+}
+
+.block3 {
+	max-width: 350px;
+	margin: 0px auto 30px auto;
+	background-color: white;
+	box-shadow: 1px 1px 10px 2px darkgrey;
+	border: 1px;
+}
+
+.task3 {
+	font-weight: 400;
+	line-height: 180%;
+}
+
+.text3 {
+	padding: 30px 30px;
+}
+
+p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin: 0px 0px 20px 0px;
+}
+
+h3 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.6px;
+	color: #323232;
+}
+
+span {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #58bebf;
+}
+
+.block4 {
+	font-family: "HelveticaNeueCyr";
+	font-weight: 400;
+	max-width: 255px;
+	margin: 0px auto 30px auto;
+	padding: 24px 24px 60px 24px;
+	background: #252525;
+	border-radius: 4px;
+}
+
+.task4 {
+	font-size: 22px;
+	line-height: 118%;
+	color: #d9d9d9;
+	margin: 0px 0px 20px 0px;
+}
+
+.text4 {
+	font-size: 13px;
+	line-height: 138%;
+	color: #85878c;
+	font-family: "HelveticaNeueCyr";
+	font-weight: 400;
+}
